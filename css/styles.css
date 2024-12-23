@@ -6,46 +6,54 @@
     list-style: none;
     text-decoration: none;
     color: none;
+    list-style: none;
 
 }
 
+/*fonts de google*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-        font-family: "Lato", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
 
-header{
-    background-color: rgb(72, 43, 79);
-    height: 5em;
-    width: 100%;
-    font-family:lato;
-    padding:1em;
+header {
+    background-color: blueviolet;
     display: flex;
+    align-items: center;
+    padding: 2px;
 }
 
-main{
-    background-image:url(../img/fondo_japones.jpg);
-    height:55em;
-    width: 100%;
-
-}
-
-.logo{
-    height: 2em;
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
     display: flex;
-}
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;}
 
-nav{display: flex;}
-
-nav ul{
+div {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    margin-left: 5em;
+    padding:2em;
 }
 
-footer{
-background-color: rgb(72, 43, 79) ;
-}
+.main-navbar {
+    padding: 1.5625rem 5rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all .2s linear;}
 
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;}
+        padding: 0.625rem 0.9375rem;
+        background-color: rgba(57, 88, 75 0);}
+      
+        .main-navbar {
+            padding: 0.625rem 0.9375rem;
+            background-color: rgba(57, 88, 75, .6);
+          }
+        
